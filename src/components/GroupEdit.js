@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { Button, Container, Form, FormGroup, Input, Label } from 'reactstrap';
-import AppNavbar from './AppNavbar';
 
 const GroupEdit = () => {
     const initialFormState = {
@@ -27,7 +26,7 @@ const GroupEdit = () => {
     const handleChange = (event) => {
         const { name, value } = event.target
 
-        setGroup({ ...group, [name]: value })
+            setGroup({ ...group, [name]: value })
     }
 
     const handleSubmit = async (event) => {
@@ -48,7 +47,7 @@ const GroupEdit = () => {
     const title = <h2>{group.id ? 'Edit Group' : 'Add Group'}</h2>;
 
     return (<div>
-            <AppNavbar/>
+
             <Container>
                 {title}
                 <Form onSubmit={handleSubmit}>

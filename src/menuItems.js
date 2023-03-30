@@ -5,139 +5,152 @@ export const menuItems = [
   },
   {
     title: 'About',
-    url: '/services',
+    url: '/',
     submenu: [
       {
         title: 'News & Articles',
-        url: 'web-design',
+        url: '/',
       },
       {
         title: 'Choirs',
-        url: 'web-dev',
+        url: '/',
         submenu: [
           {
             title: 'Uganda Matyrs',
-            url: 'frontend',
+            url: '/',
           },
           {
             title: 'The Karolines',
-            url: 'frontend',
+            url: '/',
           },
           {
             title: 'The Exaltants',
-            url: 'frontend',
+            url: '/',
           },
           {
             title: 'The Children',
-            url: 'frontend',
+            url: '/',
           },
 
         ],
       },
       {
         title: 'Readings',
-        url: 'seo',
+        url: '/',
       },
       {
         title: 'Uganda Matyrs',
-        url: 'web-design',
+        url: '/',
       },
       {
         title: 'Prayers',
-        url: 'web-design',
+        url: '/',
       },
       {
         title: 'Staff',
-        url: 'web-design',
+        url: '/',
       },
       {
         title: 'Photo Gallery',
-        url: 'web-design',
+        url: '/',
       },
       {
         title: 'Decipleship',
-        url: 'web-design',
+        url: '/',
       },
       {
         title: 'Contact us',
-        url: 'web-design',
+        url: '/',
       },
     ],
   },
   {
     title: 'Sacraments',
-    url: '/about',
+    url: '/',
     submenu: [
       {
         title: 'Baptism',
-        url: 'who-we-are',
+        url: '/',
       },
       {
         title: 'Confession/Reconcilliation',
-        url: 'our-values',
+        url: '/',
       },
       {
         title: 'Confirmation',
-        url: 'who-we-are',
+        url: '/',
       },
       {
         title: 'Holy Eucharist',
-        url: 'who-we-are',
+        url: '/',
       },
       {
         title: 'Marriage',
-        url: 'who-we-are',
+        url: '/',
       },
       {
         title: 'Holy Orders',
-        url: 'who-we-are',
+        url: '/',
       },
       {
         title: 'Annointing of the sick',
-        url: 'who-we-are',
+        url: '/',
       },
       {
         title: 'Funeral',
-        url: 'who-we-are',
+        url: '/',
       },
     ],
   },
   {
     title: 'Leadership',
-    url: '/about',
+    url: '/',
     submenu: [
       {
         title: 'Our Chaplain',
-        url: 'who-we-are',
+        url: '/',
       },
       {
         title: 'Board of Directors',
-        url: 'our-values',
+        url: '/',
       },
       {
         title: 'Executive Committee',
-        url: 'who-we-are',
+        url: '/',
       },
       {
         title: 'Leadership council',
-        url: 'who-we-are',
+        url: '/',
       },
       {
         title: 'Bubondo',
         submenu: [
           {
             title: 'Youth',
-            url: 'node',
+            url: '/',
           },
           {
             title: 'St Mugagga',
-            url: 'php',
+            url: '/',
+          },
+        ],
+      },
+      {
+        title: 'Committees',
+        submenu: [
+          {
+            title: 'The Men',
+            url: '/',
+          },
+          {
+            title: 'Womens Committee',
+            url: '/',
           },
         ],
       },
       {
         title: 'A message from our leaders',
-        url: 'who-we-are',
+        url: '/',
       },
       
     ],
@@ -146,29 +159,20 @@ export const menuItems = [
     title: 'Get Involved',
     submenu: [
       {
-        title: 'Event',
-        url: 'who-we-are',
+        title: 'Announcements',
+        url: '/',
       },
       {
         title: 'Uganda Matyrs Day',
-        url: 'our-values',
+        url: '/',
       },
       {
-        title: 'Last sunday oof the month',
-        url: 'who-we-are',
+        title: 'Community Sunday',
+        url: '/',
       },
       {
         title: 'Amakungula',
-        url: 'who-we-are',
-      },
-      
-      {
-        title: 'Fun day',
-        url: 'who-we-are',
-      },
-      {
-        title: 'Christmas Carols',
-        url: 'who-we-are',
+        url: '/',
       },
       
     ],

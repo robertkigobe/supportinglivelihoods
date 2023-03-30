@@ -1,11 +1,13 @@
 :root {
     --mainOpacity: rgba(0, 0, 0, 0.55);
+    margin: 0 !important;
 }
 
-.header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./Images/PublicImages/image-2.jpg");
+.header2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./images/PublicImages/image-2.jpg");
     opacity: var(--mainOpacity);
-    height: 25em !important;
+    height: 15em !important;
+    margin: 0 !important;
 }
 
 .dark-overlay {
@@ -17,39 +19,53 @@
     height: 100%;
 }
 
+.col-image-logo {
+    background-image: url("./images/uccbimages/logo.jpeg");
+    height: 9em !important;
+}
+
 .col-image-advert1 {
-    background-image: url("./Images/uccbimages/advert1.jpeg");
+    background-image: url("./images/uccbimages/advert1.jpeg");
     height: 25em !important;
 }
+.col-image-advert2 {
+    background-image: url("./images/uccbimages/advert2.jpeg");
+    height: 25em !important;
+}
+.col-image-advert3 {
+    background-image: url("./images/uccbimages/advert3.jpeg");
+    height: 25em !important;
+}
+
 
 .main-color {
     background-color: #0e76a8;
 }
 
 .col-image-left {
-    background-image: url("./Images/PublicImages/image-4.jpg");
+    background-image: url("./images/PublicImages/image-4.jpg");
     height: 25em !important;
 }
 
 .col-image-chaplains {
-    background-image: url("./Images/uccbimages/chaplains.jpeg");
+    background-image: url("./images/uccbimages/chaplains.jpeg");
     height: 25em !important;
+
 }
 
 .col-image-altarboys {
-    background-image: url("./Images/uccbimages/altarboys.jpeg");
+    background-image: url("./images/uccbimages/altarboys.jpeg");
     height: 25em !important;
 }
 
 .col-image-right {
-    background-image: url("./Images/PublicImages/image-1.jpg");
+    background-image: url("./images/PublicImages/image-1.jpg");
     height: 25em !important;
 }
 
 .lost-image {
-    background-image: url("./Images/PublicImages/image-3.jpg");
+    background-image: url("./images/PublicImages/image-3.jpg");
     height: 25em !important;
-    width: "720"
 }
 
 .homepage-carousel-title {
@@ -66,4 +82,12 @@
 .inactiveLink {
     pointer-events: none;
     cursor: default;
+}
+
+.fade-in-image { animation: fadeIn 5s; }
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }

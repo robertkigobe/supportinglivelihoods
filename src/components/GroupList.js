@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Button, ButtonGroup, Container, Table } from 'reactstrap';
-import AppNavbar from './AppNavbar';
+import {Button, ButtonGroup, Container, Navbar, Table} from 'reactstrap';
 import { Link } from 'react-router-dom';
 
 const GroupList = () => {
@@ -59,7 +58,7 @@ const GroupList = () => {
 
     return (
         <div>
-            <AppNavbar/>
+            <Navbar/>
             <Container fluid>
                 <div className="float-end">
                     <Button color="success" tag={Link} to="/groups/new">Add Group</Button>
