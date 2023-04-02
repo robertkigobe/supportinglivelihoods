@@ -3,11 +3,12 @@
     margin: 0 !important;
 }
 
-.header2 {
+.header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./images/PublicImages/image-2.jpg");
     opacity: var(--mainOpacity);
     height: 15em !important;
-    margin: 0 !important;
+    margin: 2 !important;
+    padding: auto;
 }
 
 .dark-overlay {
@@ -28,10 +29,12 @@
     background-image: url("./images/uccbimages/advert1.jpeg");
     height: 25em !important;
 }
+
 .col-image-advert2 {
     background-image: url("./images/uccbimages/advert2.jpeg");
     height: 25em !important;
 }
+
 .col-image-advert3 {
     background-image: url("./images/uccbimages/advert3.jpeg");
     height: 25em !important;
@@ -84,10 +87,21 @@
     cursor: default;
 }
 
-.fade-in-image { animation: fadeIn 5s; }
+.fade-in-image {
+    animation: fadeIn 5s;
+}
 
 
 @keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.lead {
+    font-family: 'Roboto Mono', monospace;
 }
