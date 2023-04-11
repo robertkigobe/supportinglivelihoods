@@ -1,4 +1,3 @@
-import Navbar from "./Navbar";
 import "../Homepage.css";
 import { Envelope } from "react-bootstrap-icons";
 import { Clock } from "react-bootstrap-icons";
@@ -34,10 +33,9 @@ const Header = () => {
                 <a
                   className="btn btn-outline-warning"
                   href="https://s4.radio.co/s844a35264/listen"
-                  target="_blank"
                 >
                   <Speaker />
-                  Listen Live!
+                  {onair}
                 </a>
               </div>
             </div>
@@ -45,10 +43,6 @@ const Header = () => {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="nav-area">
-        <Navbar />
       </div>
     </header>
   );

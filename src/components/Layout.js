@@ -1,15 +1,19 @@
-import { Outlet } from 'react-router-dom';
-import Header from './Header';
+import MainHome from './homepage/MainHome';
+
+import Readings from './Readings/Readings';
+import Section from './Sections/Section';
 
 
 const Layout = () => {
   return (
     <div>
-      <Header />
-        <div className="content">
-            <Outlet />
-        </div>
-
+       
+      
+      <MainHome />
+      <Readings />
+      <Section />
+   
+    
     </div>
   );
 };

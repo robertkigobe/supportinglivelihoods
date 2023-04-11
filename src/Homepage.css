@@ -7,8 +7,9 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./images/PublicImages/image-2.jpg");
     opacity: var(--mainOpacity);
     height: 15em !important;
-    margin: 2 !important;
+    margin: 0 !important;
     padding: auto;
+    width: 100%;
 }
 
 .dark-overlay {
@@ -23,6 +24,7 @@
 .col-image-logo {
     background-image: url("./images/uccbimages/logo.jpeg");
     height: 9em !important;
+  
 }
 
 .col-image-advert1 {
@@ -59,6 +61,14 @@
 .col-image-altarboys {
     background-image: url("./images/uccbimages/altarboys.jpeg");
     height: 25em !important;
+}
+
+.col-image-sisters {
+    background-image: url("./images/uccbimages/sisters.jpeg");
+    width: 100%;
+  height: 100% !important;
+  object-fit: contain;
+  
 }
 
 .col-image-right {

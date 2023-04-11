@@ -1,11 +1,12 @@
-import CarouselH from "./CarouselH";
+
 import Sections from "./Sections";
+import Carousel from "./CarouselF"
 
 const Home = () => {
   return (
     <div className="container-fluid">
       <div>
-        <CarouselH />
+        <Carousel />
       </div>
       <div>
         <Sections />

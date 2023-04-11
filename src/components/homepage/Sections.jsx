@@ -26,15 +26,24 @@ const Sections = () => {
                       justify-content-center align-items-center"
           >
             <div className="ml-2">
-              <h1>Leadership Committee</h1>
+              <h1>Message from our Chairman</h1>
               <p className="lead">
-                Contrary to popular belief, Lorem Ipsum is not simply random
-                text. It has roots in a piece of classical Latin literature from
-                45 BC, making it over 2000 years old. Richard McClintock, a
-                Latin professor at Hampden-Sydney College in Virginia, looked up
-                one of the more obscure Latin words, consectetur, from a Lorem
-                Ipsum passage, and going through the cites of the word in
-                classical literature, discovered the undoubtable source.
+                UCCB’s Attachment To The Uganda Martyrs For clarity’s sake, UCCB
+                stands for the Ugandan Catholic Community in the Archdiocese of
+                Boston. And the Uganda Martyrs in reference here are none other
+                than the Ugandan Christian Martyrs – most specifically the 22
+                Catholic Martyrs, who were killed at the orders of Kabaka (King)
+                Mwanga of the Kingdom of Buganda in Uganda in the late 19th
+                Century for being Christians. That is, Kabaka Mwanga killed them
+                because of their adherence to the Christian Faith. Even though
+                the majority of these Christian Faithful were killed at
+                Nnamugongo, we know very well that some were killed at other
+                sites in the Kingdom of Buganda. Consequently, because of this
+                historical fact, the most prominent Shrine for the Uganda
+                Catholic Martyrs is at Nnamugongo. However, at this juncture, we
+                cannot feign ignorance of the other Christian Martyrs who
+                belonged to the Anglican Church and were at the same time also
+                killed at the Kabaka’s orders for the
               </p>
             </div>
           </div>
