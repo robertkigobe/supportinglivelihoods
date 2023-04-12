@@ -8,7 +8,6 @@ const Layout = () => {
   return (
     <div>
        
-      
       <MainHome />
       <Readings />
       <Section />

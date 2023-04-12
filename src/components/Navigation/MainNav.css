@@ -7,11 +7,41 @@ body {
     margin: 0;
 }
 
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../images/PublicImages/image-2.jpg");
+    list-style: none;
+    padding: 20px;
+    width: 100%;
+    color: rgb(249, 217, 12);
+    text-align: center;
+    position: sticky;
+    vertical-align: middle;
+    
+}
+
 .main-header {
     width: 100%;
+    position: fixed;
     background-color: white;
     padding: 8px 16px;
     vertical-align: middle;
+}
+
+.main-header__badge{
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    width: 10%;
+    height: 290%;
+    margin: 0;
+    padding: 8px;
+    color: aliceblue;
+    background-image: url('../../images/uccbimages/logo.jpeg');
+    font-size: 12px;
+    border-radius: 8px;
+    background-size: 100%;
+    background-position: 0% 2%;
+    background-repeat: no-repeat;
 }
 
 .main-header>div {
@@ -24,6 +54,8 @@ body {
     font-weight: bold;
     font-size: 22px;
     vertical-align: middle;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+    border-radius: 8px;
 }
 
 .main-nav {

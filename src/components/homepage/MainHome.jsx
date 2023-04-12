@@ -4,7 +4,7 @@ const MainHome = () => {
 
     return (<div>
         <section className="landing">
-            <p>Uganda Catholics in Boston</p>
+            
         </section>
     </div>);
 }

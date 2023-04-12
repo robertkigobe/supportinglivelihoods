@@ -3,13 +3,13 @@ import Layout from "./Layout";
 import CurrentReading from "./Readings/CurrentReading";
 import Footer from "./Navigation/Footer";
 import MainNav from "./Navigation/MainNav";
-import Header from "./Header";
+import ChildrenCommittee from "./committees/children/ChildrenCommittee";
 
 const App = () => {
   return (
     <>
       <Router>
-        <Header />
+       
         <MainNav />
         <Switch>
           <Route exact path="/">
@@ -17,6 +17,9 @@ const App = () => {
           </Route>
           <Route path="/currentreading">
             <CurrentReading />
+          </Route>
+          <Route path="/children">
+            <ChildrenCommittee />
           </Route>
         </Switch>
         <Footer />
