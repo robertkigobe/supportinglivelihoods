@@ -1,83 +1,99 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
+import "../../shared.css";
 import "./MainNav.css";
-import { Envelope } from "react-bootstrap-icons";
-import { Clock } from "react-bootstrap-icons";
-import { Speaker } from "react-bootstrap-icons";
+import logo from "../../images/uccbimages/logo132.png";
 
 const MainNav = () => {
-  const mail = "   info@uccb.us";
-  const masstime1 = "Sunday 1:00 pm";
-  const masstime2 = "Friday 8:00 pm";
-  const onair = "Listen Live";
-  return (
-    <>
-      <div className="header">
-        <ul className="main-nav__items">
-          <li className="main-nav__item">
-            <p>Uganda Catholic Community in the Archdiocese of Boston</p>
-          </li>
+  const [isOpen, setIsOpen] = useState(false);
 
-          <li className="main-nav__item">
-            <Envelope />
-            {mail}
+  const clickHandler = () => {
+    setIsOpen((isOpen) => !isOpen);
+    
+  };
+
+  return (
+  
+      <header className="header">
+        
+        <div className="main-header">
+          <div className="main-header__toggle">
+            <button className="toggle-button" onClick={clickHandler}>
+              <span className="toggle-button__bar"></span>
+              UCCB
+            </button>
+          </div>
+          <div className="main-header__badge">
+            <img src={logo} alt="UCCB" className="logo__image" />
+          </div>
+
+          <div className="main-nav">
+            <ul className="main-nav__items">
+              <li className="main-nav__item">
+                <Link className="link" to="/">
+                  Home
+                </Link>
+              </li>
+              <li className="main-nav__item">
+                <Link className="link" to="/">
+                  Chaplaincy
+                </Link>
+              </li>
+              <li className="main-nav__item">
+                <Link className="link" to="/">
+                  Our Mass
+                </Link>
+              </li>
+              <li className="main-nav__item">
+                <Link className="link" to="/">
+                  Leadership
+                </Link>
+              </li>
+              <li className="main-nav__item">
+                <Link className="link" to="/">
+                  Radio Programing
+                </Link>
+              </li>
+              <li className="main-nav__item main-nav__item--cta">
+                <Link className="link__cta" to="/">
+                  Donate
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+      <nav
+      onClick={clickHandler}
+        className="mobile-nav"
+        style={{
+          display: isOpen ? "block" : "none",
+        }}
+      >
+        <ul className="mobile-nav__items">
+          <li className="mobile-nav__item">
+            <Link to="/" className="mobile__link">
+              Chaplaincy
+            </Link>
           </li>
-          <li className="main-nav__item">
-            <Clock />
-            {masstime1}
+          <li className="mobile-nav__item">
+            <Link to="/" className="mobile__link">
+              Our Mass
+            </Link>
           </li>
-          <li className="main-nav__item">
-            <Clock />
-            {masstime2}
+          <li className="mobile-nav__item mobile-nav__item--cta">
+            <Link to="/" className="mobile__link">
+              Leadership
+            </Link>
+          </li>
+          <li className="mobile-nav__item mobile-nav__item--cta">
+            <Link to="/" className="mobile__link">
+              Radio
+            </Link>
           </li>
         </ul>
-      </div>
-      <div className="main-header">
-        <div className="main-header__brand">
-          <Link className="link" to="/">
-            UCCB
-          </Link>
-            <Link className="link" to="/">
-          <div className="main-header__badge">
-              
-          </div>
-            </Link>
-        </div>
-        <nav className="main-nav">
-          <ul className="main-nav__items">
-            <li className="main-nav__item">
-              <Link className="link" to="/">
-                Home
-              </Link>
-            </li>
-            <li className="main-nav__item">
-              <Link className="link" to="/">
-                Who we are
-              </Link>
-            </li>
-            <li className="main-nav__item">
-              <Link className="link" to="/currentreading">
-                Prayer &amp; Worship
-              </Link>
-            </li>
-            <li className="main-nav__item">
-              <Link className="link" to="/children">
-                Committees
-              </Link>
-            </li>
-            <li className="main-nav__item">
-              <Link className="link" to="/">
-                Radio Programing
-              </Link>
-            </li>
-            <li className="main-nav__item main-nav__item--cta">
-              <Link className="link cta" to="/">
-                Donate
-              </Link>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </>
+      </nav>
+      </header>
+    
   );
 };
 export default MainNav;

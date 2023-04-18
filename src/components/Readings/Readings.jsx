@@ -1,54 +1,59 @@
 import React from "react";
-import './Readings.css'
+import "./Readings.css";
 import { Link } from "react-router-dom";
 
 const Readings = () => {
   return (
-    <div>
-        <div className="section-title">
-            <h1>Luganda Mass Order</h1>
-        </div>
-      <article className="order">
-        <h1 className="order__title">Introduction</h1>
-        <ul className="order__features">
-          <li className="order__feature">Greeting</li>
-          <li className="order__feature">Concluding Rite</li>
-          <li className="order__feature">PENITENTIAL RITE</li>
-          <li className="order__feature">GLORIA:</li>
-          <li className="order__feature">GLORIA:</li>
+    <section className="reading__section">
+      <div className="section-title">
+        <h1>Ekitabo Ky'Mukristu</h1>
+      </div>
+      <div className="section_block">
+        <h1 className="section__title">AMAYINGIRA</h1>
+        <ul className="section__features">
+          <li className="section__feature">Greeting</li>
+          <li className="section__feature">Concluding Rite</li>
+          <li className="section__feature">Penetential Rites</li>
+          <li className="section__feature">Gloria:</li>
+          <li className="section__feature">Readings:</li>
         </ul>
-        <div>
-          <button className="order__button">Introduction</button>
+        <div className="section__button-container">
+          <Link className="section__button" to={"/"}>
+            AMAYINGIRA
+          </Link>
         </div>
-      </article>
-      <article className="order order--highlighted">
-        <h1 className="order__annotation">Liturgy of the Word</h1>
-        <ul className="order__features">
-          <li className="order__feature">First Reading</li>
-          <li className="order__feature">Psalm</li>
-          <li className="order__feature">Second Reading</li>
-          <li className="order__feature">Gospel Acclamation</li>
-          <li className="order__feature">Gospel</li>
-          <li className="order__feature">GLORIA Sermion</li>
+      </div>
+      <div className="section_block section--highlighted">
+        <h1 className="section_annotation">EKIGAMBO KY'OMUKAMA</h1>
+        <ul className="section__features">
+          <li className="section__feature">ESSOMO I</li>
+          <li className="section__feature">OLUYIMBA OLW’OKWEBUULIRIRA</li>
+          <li className="section__feature">ESSOMO II</li>
+          <li className="section__feature">OKWANIRIZA EVANJIRI</li>
+          <li className="section__feature">EVANJIRI</li>
         </ul>
-        <div>
-          <Link className="order__button" to={'/currentreading'}>Todays Readings</Link>
+        <div className="section__button-container">
+          <Link className="section__button" to={"/"}>
+            AMASOMMO
+          </Link>
         </div>
-      </article>
-      <article className="order">
-        <h1 className="order__title">Liturgy of the Eucharist</h1>
-        <ul className="order__features">
-          <li className="order__feature">Credo</li>
-          <li className="order__feature">Liturgy of the Eucharist</li>
-          <li className="order__feature">Eucharistic Prayer 2</li>
-          <li className="order__feature">Our Father</li>
-          <li className="order__feature">Communion</li>
+      </div>
+      <div className="section_block">
+        <h1 className="section__title">ESSALA</h1>
+        <ul className="section__features">
+          <li className="section__feature">Credo</li>
+          <li className="section__feature">Liturgy of the Eucharist</li>
+          <li className="section__feature">Eucharistic Prayer 2</li>
+          <li className="section__feature">Our Father</li>
+          <li className="section__feature">Communion</li>
         </ul>
-        <div>
-          <button className="order__button">Prayers</button>
+        <div className="section__button-container">
+          <Link className="section__button" to={"/"}>
+            ESSAALA
+          </Link>
         </div>
-      </article>
-    </div>
+      </div>
+    </section>
   );
 };
 

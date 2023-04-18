@@ -1,12 +1,14 @@
 import React from "react";
 import "./CurrentReading.css";
+import '../../shared.css';
 import { Link } from "react-router-dom";
 
 const CurrentReading = () => {
   return (
+
     <div className="main-reading">
       <h1 className="reading__title">OLUNAKU LW'OMUKAMA OLW'OKUBIRI OLWA PASKA </h1>
-      <h3>OMWAKA A 04-16-2023</h3>
+      <h2 className="reading__subtitle1">OMWAKA A 04-16-2023</h2>
       <section className="reading">
         <Link className="reading-link" to="#">
           <h2 className="reading__subtitle1">ESSOMO I</h2>
