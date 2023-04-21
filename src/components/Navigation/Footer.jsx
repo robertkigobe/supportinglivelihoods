@@ -13,7 +13,7 @@ const Footer = () => {
     <nav className="main-footer">
       <div className="section-title">
         <h1 className="main-footer__title">
-          Uganda Catholic Community in the Archdiocese of Boston
+          Ugandan Catholic Community in the Archdiocese of Boston
         </h1>
       </div>
 
@@ -41,13 +41,13 @@ const Footer = () => {
         <div className="footer_block_last">
           <ul className="main-footer__links">
             <li className="main-footer__link">
-              <Link className="main-footer__link" to="/home">
-                Readings
+              <Link className="main-footer__link" to="/chaplaincy">
+              Chaplaincy
               </Link>
             </li>
             <li className="main-footer__link">
-              <Link className="main-footer__link" to="/home">
-                Leadership
+              <Link className="main-footer__link" to="/currentreading">
+              Our Mass
               </Link>
             </li>
             <li className="main-footer__link">

@@ -31,17 +31,17 @@ const MainNav = () => {
             <ul className="main-nav__items">
               <li className="main-nav__item">
                 <Link className="link" to="/">
-                  Home
+                  Who we are
                 </Link>
               </li>
               <li className="main-nav__item">
-                <Link className="link" to="/">
-                  Chaplaincy
+                <Link className="link" to="/chaplaincy">
+                  How we Evangelize
                 </Link>
               </li>
               <li className="main-nav__item">
-                <Link className="link" to="/">
-                  Our Mass
+                <Link className="link" to="/currentreading">
+                  Who we serve
                 </Link>
               </li>
               <li className="main-nav__item">
@@ -51,9 +51,16 @@ const MainNav = () => {
               </li>
               <li className="main-nav__item">
                 <Link className="link" to="/">
-                  Radio Programing
+                  Ways to give
                 </Link>
               </li>
+
+              <li className="main-nav__item">
+                <Link className="link" to="/">
+                  News
+                </Link>
+              </li>
+
               <li className="main-nav__item main-nav__item--cta">
                 <Link className="link__cta" to="/">
                   Donate
@@ -76,7 +83,7 @@ const MainNav = () => {
             </Link>
           </li>
           <li className="mobile-nav__item">
-            <Link to="/" className="mobile__link">
+            <Link to="/currentreading" className="mobile__link">
               Our Mass
             </Link>
           </li>

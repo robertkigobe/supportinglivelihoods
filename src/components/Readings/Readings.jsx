@@ -6,7 +6,7 @@ const Readings = () => {
   return (
     <section className="reading__section">
       <div className="section-title">
-        <h1>Ekitabo Ky'Mukristu</h1>
+        <h1>Ekitabo Ky'Omukristu</h1>
       </div>
       <div className="section_block">
         <h1 className="section__title">AMAYINGIRA</h1>
@@ -33,13 +33,13 @@ const Readings = () => {
           <li className="section__feature">EVANJIRI</li>
         </ul>
         <div className="section__button-container">
-          <Link className="section__button" to={"/"}>
+          <Link className="section__button" to={"/currentreading"}>
             AMASOMMO
           </Link>
         </div>
       </div>
       <div className="section_block">
-        <h1 className="section__title">ESSALA</h1>
+        <h1 className="section__title">ESSAALA</h1>
         <ul className="section__features">
           <li className="section__feature">Credo</li>
           <li className="section__feature">Liturgy of the Eucharist</li>

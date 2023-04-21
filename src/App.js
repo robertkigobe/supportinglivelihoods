@@ -4,7 +4,8 @@ import Footer from "./components/Navigation/Footer";
 import MainNav from "./components/Navigation/MainNav";
 import ChildrenCommittee from "./components/committees/children/ChildrenCommittee";
 import RadioProgramming from "./components/Radio/RadioProgramming";
-import Packages from "./components/packages/Packages";
+import CurrentReading from "./components/Readings/CurrentReading";
+import Chaplains from "./components/chaplaincy/Chaplains";
 
 const App = () => {
   return (
@@ -16,8 +17,11 @@ const App = () => {
           <Route exact path="/">
             <Layout />
           </Route>
+          <Route path="/chaplaincy">
+            <Chaplains/>
+          </Route>
           <Route path="/currentreading">
-            <Packages/>
+            <CurrentReading/>
           </Route>
           <Route path="/">
             <ChildrenCommittee />

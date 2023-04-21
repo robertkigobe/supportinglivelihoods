@@ -273,7 +273,7 @@
     }
 
     .main-header {
-        background: linear-gradient(orange, purple, brown);
+        background: linear-gradient(blue, white, yellow);
     }
 
     .main-header .main-nav {
@@ -288,16 +288,12 @@
 
     }
 
-    .mobile-nav {
-
-    }
-
 
     .main-footer {
         background-color: black;
-        margin-top: 5px;
-        margin-bottom: 2px;
-        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+        position: relative;
+        left: 0;
+        bottom: 0;
         border-radius: 8px;
         display: inline-block;
     }

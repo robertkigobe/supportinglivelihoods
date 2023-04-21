@@ -1,0 +1,87 @@
+.main__chaplaincy{
+    width: 100vw;
+    height: 100%;
+    margin-top: 5rem;
+    background: linear-gradient(yellow, green, blue);
+    filter: grayscale(40%);
+}
+
+.main__chaplaincy__title h1{
+    
+    background: rgb(204, 239, 204);
+    font-size: 3rem;
+    text-align: center;
+    margin: 2rem;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+
+}
+
+.main__chaplaincy__info{
+    background: rgb(204, 239, 204);
+    margin: 2rem;
+    padding: 2rem;
+    font-size: 1.5rem;
+    font: 'anton' san-serif;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+.main__chaplaincy__image-list{
+    list-style: none;
+    text-align: center;
+    margin: 2rem;
+    padding: 2rem;
+    
+}
+.main__chaplaincy__image{
+    display: inline-block;
+    width: 32%;
+    background: rgb(204, 239, 204);
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    vertical-align: top;
+
+}
+.chaplain__image{
+    width: 100%;
+    vertical-align: top;
+    height: 450px
+}
+
+.main__chaplaincy-name{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(94, 234, 8);
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 2rem;
+
+}
+
+
+@media (max-width: 40rem) {
+
+    .main__chaplaincy{
+        height: 100%;
+        box-shadow: 4px 4px 4px 4px rgba(233, 110, 110, 0.5);
+        border-radius: 8px;
+
+    }
+
+    .main__chaplaincy__title h1{
+        font-size: 2rem;
+    }
+    .main__chaplaincy__info{
+        font-size: 1rem;
+        
+    }
+
+    .main__chaplaincy__image{
+        display: block;
+        width: 90%;
+    }
+
+}

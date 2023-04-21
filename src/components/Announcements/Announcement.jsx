@@ -1,5 +1,5 @@
 import React from "react";
-import './Announcements.css';
+import "./Announcements.css";
 
 const Announcements = () => {
   return (
@@ -7,9 +7,7 @@ const Announcements = () => {
       <h1 className="section-title">News &amp; Events </h1>
       <ul className="section-features__list">
         <li className="section-feature">
-          <div className="section-feature__image">
-            
-          </div>
+          <div className="section-feature__image"></div>
           <p className="section-feature__description">Announcement 1</p>
         </li>
         <li className="section-feature">
