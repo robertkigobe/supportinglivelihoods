@@ -26,11 +26,19 @@ const MainNav = () => {
 
         <div className="main-nav">
           <ul className="main-nav__items">
-          <div className="main-nav__item">
+            <div className="main-nav__item">
               <div className="main-nav__item__dropdown__head">Who we are </div>
               <ul className="main-nav__item__dropdown_content">
-                <li>About Us</li>
-                <li>Leadership</li>
+                <li>
+                  <Link className="link" to="/aboutus">
+                    About Us
+                  </Link>
+                </li>
+                <li> <li>
+                  <Link className="link" to="/leadership">
+                    Leadership
+                  </Link>
+                </li></li>
                 <li>President's Message</li>
                 <li>Chairman's Message</li>
                 <li>Executive Committee</li>
@@ -47,7 +55,7 @@ const MainNav = () => {
                 Who we serve
               </Link>
             </li>
-            
+
             <li className="main-nav__item">
               <Link className="link" to="/">
                 Ways to give
