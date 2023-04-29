@@ -6,6 +6,8 @@ import ChildrenCommittee from "./components/committees/children/ChildrenCommitte
 import RadioProgramming from "./components/Radio/RadioProgramming";
 import CurrentReading from "./components/Readings/CurrentReading";
 import Chaplains from "./components/chaplaincy/Chaplains";
+import AboutUs from "./components/whoweare/AboutUs";
+import Leadership from "./components/whoweare/Leadership";
 
 const App = () => {
   return (
@@ -16,6 +18,12 @@ const App = () => {
         <Switch>
           <Route exact path="/">
             <Layout />
+          </Route>
+          <Route exact path="/aboutus">
+            <AboutUs />
+          </Route>
+          <Route exact path="/leadership">
+            <Leadership />
           </Route>
           <Route path="/chaplaincy">
             <Chaplains/>
