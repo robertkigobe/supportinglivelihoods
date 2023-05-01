@@ -12,6 +12,7 @@ const MainNav = () => {
   };
 
   return (
+    
     <header className="header">
       <div className="main-header">
         <div className="main-header__toggle">
@@ -26,6 +27,11 @@ const MainNav = () => {
 
         <div className="main-nav">
           <ul className="main-nav__items">
+            <li className="main-nav__item">
+              <Link className="link" to="/">
+                Home
+              </Link>
+            </li>
             <div className="main-nav__item">
               <div className="main-nav__item__dropdown__head">Who we are </div>
               <ul className="main-nav__item__dropdown_content">
@@ -34,33 +40,78 @@ const MainNav = () => {
                     About Us
                   </Link>
                 </li>
-                <li> <li>
-                  <Link className="link" to="/leadership">
+                <li>Office of the chaplaincy</li>
+                <li className="main-nav__item__nested">
+                  <div className="main-nav__item__dropdown__head__nested">
                     Leadership
-                  </Link>
-                </li></li>
-                <li>President's Message</li>
-                <li>Chairman's Message</li>
-                <li>Executive Committee</li>
-                <li>Get in touch</li>
+                  </div>
+                  <ul className="smain-nav__item__dropdown_content__nested">
+                    <li>Board</li>
+                    <li>Executive Committee</li>
+                    <li>Leadership Council</li>
+                    <li>President's Message</li>
+                    <li>Chairman's Message</li>
+                    <li>Bubondo</li>
+                  </ul>
+                </li>
               </ul>
             </div>
-            <li className="main-nav__item">
-              <Link className="link" to="/chaplaincy">
-                How we Evangelize
-              </Link>
-            </li>
-            <li className="main-nav__item">
-              <Link className="link" to="/currentreading">
-                Who we serve
-              </Link>
-            </li>
+            <div className="main-nav__item">
+              <div className="main-nav__item__dropdown__head">
+                How we evangelize
+              </div>
+              <ul className="main-nav__item__dropdown_content">
+                <li>Choirs</li>
+                <li>Family life</li>
+                <li>Faith formation</li>
+                <li>Catholic education</li>
+                <li>Baptism</li>
+                <li>Holy Communion</li>
+                <li>Holy Matrimony</li>
+                <li>Sacrament of the Sick</li>
+                <li>Propery blessings</li>
+                <li>Memorial Masses</li>
+                <li>Small Community masses</li>
+                <li>Mass Schedules</li>
+              </ul>
+            </div>
 
-            <li className="main-nav__item">
-              <Link className="link" to="/">
-                Ways to give
-              </Link>
-            </li>
+            <div className="main-nav__item">
+              <div className="main-nav__item__dropdown__head">Who we serve</div>
+              <ul className="main-nav__item__dropdown_content">
+                <li>Children</li>
+                <li>Young adults</li>
+                <li>Women</li>
+                <li>Men</li>
+                <li>Married</li>
+                <li>Community Support</li>
+              </ul>
+            </div>
+
+            <div className="main-nav__item">
+              <div className="main-nav__item__dropdown__head">Way to give </div>
+              <ul className="main-nav__item__dropdown_content">
+                <li>Donate</li>
+                <li>Volunteer</li>
+                <li>Become a lector</li>
+                <li>Become a choir member</li>
+                <li>become an altar boy</li>
+                <li>Become an usher</li>
+                <li>Become an knight of columbus</li>
+              </ul>
+            </div>
+
+            <div className="main-nav__item">
+              <div className="main-nav__item__dropdown__head">
+                Uganda Matyrs{" "}
+              </div>
+              <ul className="main-nav__item__dropdown_content">
+                <li>News and Events</li>
+                <li>Organizing Committee</li>
+                <li>How to support</li>
+                <li>Prior Celebrations</li>
+              </ul>
+            </div>
 
             <div className="main-nav__item">
               <div className="main-nav__item__dropdown__head">News </div>

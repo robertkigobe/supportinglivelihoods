@@ -30,19 +30,49 @@ const AboutUs = () => {
         <p className="main_paragraph">
           The Mission of the UCCB shall be to foster unity among Catholic
           Christians of Ugandan origin; their families; and their friends.
-          <br/>
+          <br />
           The Community shall engender a keen and dynamic sense of belonging,
           fraternity and solidarity among her members, their families,
           supporters, and friends.
-          <br/>
-       
+          <br />
           The unity of the UCCB shall be a springboard for evangelization, and
           charitable outreach within the Archdiocese of Boston and beyond.
-          <br/>
-        
+          <br />
           The Community shall explore and support ways that enhance the
           socio-economic, educational and professional development needs of her
           members.
+        </p>
+        <div className="main__title2">Objectives</div>
+        <p className="main_paragraph">
+          The objectives of the Ugandan Catholic Community in the Archdiocese of
+          Boston shall be:
+          <br /> To gather regularly to pray, celebrate the holy sacraments,
+          share love with one another and strengthen fellowship that transcends
+          tribal, ethnic, gender, age and/or generational differences.
+          <br /> To harness the different gifts, talents, energies, efforts, and
+          ministries among the members.
+          <br /> To support and be a voice for the voiceless, the sick and
+          afflicted, prisoners, as well as weakened and alienated believers
+          within the community, and beyond.
+          <br /> To raise future generations of Catholic citizens and leaders
+          from younger members of the Community in a lively and reassuring
+          atmosphere where children, young adults, and the youth feel welcomed,
+          included, supported, nurtured, and mentored.
+          <br /> To act as a bridge between the Archdiocese of Boston, the wider
+          Catholic Church in America, the Catholic Church in Uganda, and society
+          at large, by arranging and encouraging visits, and exchanges of
+          spiritual, material, social, and cultural gifts.
+          <br /> To spearhead the annual celebration of the Uganda Martyrs‟ Day
+          by the Ugandans in greater Boston, and to ultimately promote this
+          celebration to the status of a major feast of the Archdiocese of
+          Boston.
+          <br /> To seek integration into and interaction with the local
+          Community of the Archdiocese of Boston, while encouraging and
+          promoting Ugandan cultural expressions of Catholic liturgy and
+          worship.
+          <br /> To conceive and support the development of programs and
+          activities that generate socioeconomic and professional growth among
+          Community members.
         </p>
       </div>
     </div>
