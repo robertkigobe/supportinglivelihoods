@@ -1,15 +1,16 @@
 import Carousel from "../homepage/Carousel";
-import Readings from "../Readings/Readings";
-import Section from "../Announcements/Announcement";
 import './Layout.css';
+import {CarouselData} from "../homepage/CarouselData";
+import Readings from '../Readings/Readings';
 
 const Layout = () => {
+
   return (
     <div className="layout">
-      <Carousel />
+      <Carousel slides={CarouselData}/>
       <Readings />
-      <Section />
       {/*
+      <Section />
     <Main1/>
     */}
     </div>

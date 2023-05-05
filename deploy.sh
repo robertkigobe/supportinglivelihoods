@@ -1,4 +1,5 @@
 echo "Updating Git"
+echo "git checkout -b carousel"
 git add .
 git commit -a -m "Comment"
 git push -u origin main
