@@ -1,6 +1,5 @@
 import React from "react";
 import "./CurrentReading.css";
-import "../../shared.css";
 import { Link } from "react-router-dom";
 
 const CurrentReading = () => {

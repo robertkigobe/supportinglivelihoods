@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import "../../shared.css";
 import "./MainNav.css";
 import logo from "../../images/uccbimages/logo132.png";
 
@@ -12,20 +11,21 @@ const MainNav = () => {
   };
 
   return (
-    
     <header className="header">
-      <div className="main-header">
+      <nav className="main-header">
         <div className="main-header__toggle">
           <button className="toggle-button" onClick={clickHandler}>
             <span className="toggle-button__bar"></span>
-            UCCB
+            <span className="toggle-button__bar">All</span>
           </button>
         </div>
         <div className="main-header__badge">
           <img src={logo} alt="UCCB" className="logo__image" />
         </div>
-
         <div className="main-nav">
+          <div className="main-nav__title">
+            Ugandan Catholic Community in the Archdiocese of Boston
+          </div>
           <ul className="main-nav__items">
             <li className="main-nav__item">
               <Link className="link" to="/">
@@ -41,19 +41,12 @@ const MainNav = () => {
                   </Link>
                 </li>
                 <li>Office of the chaplaincy</li>
-                <li className="main-nav__item__nested">
-                  <div className="main-nav__item__dropdown__head__nested">
-                    Leadership
-                  </div>
-                  <ul className="smain-nav__item__dropdown_content__nested">
-                    <li>Board</li>
-                    <li>Executive Committee</li>
-                    <li>Leadership Council</li>
-                    <li>President's Message</li>
-                    <li>Chairman's Message</li>
-                    <li>Bubondo</li>
-                  </ul>
-                </li>
+                <li>Board</li>
+                <li>Executive Committee</li>
+                <li>Leadership Council</li>
+                <li>President's Message</li>
+                <li>Chairman's Message</li>
+                <li>Bubondo</li>
               </ul>
             </div>
             <div className="main-nav__item">
@@ -128,7 +121,7 @@ const MainNav = () => {
             </li>
           </ul>
         </div>
-      </div>
+      </nav>
       <nav
         onClick={clickHandler}
         className="mobile-nav"

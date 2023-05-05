@@ -1,5 +1,5 @@
 import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
-import Layout from "./Layout";
+import Layout from "./components/Navigation/Layout";
 import Footer from "./components/Navigation/Footer";
 import MainNav from "./components/Navigation/MainNav";
 import ChildrenCommittee from "./components/committees/children/ChildrenCommittee";
@@ -13,7 +13,6 @@ const App = () => {
   return (
     
       <Router>
-       
         <MainNav />
         <Switch>
           <Route exact path="/">
