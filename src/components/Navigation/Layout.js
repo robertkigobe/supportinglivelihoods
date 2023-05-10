@@ -1,14 +1,14 @@
 import Carousel from "../homepage/Carousel";
 import './Layout.css';
 import {CarouselData} from "../homepage/CarouselData";
-import Readings from '../Readings/Readings';
+import WhoWeAre from '../whoweare/WhoWeAre';
 
 const Layout = () => {
 
   return (
     <div className="layout">
       <Carousel slides={CarouselData}/>
-      <Readings />
+      <WhoWeAre />
       {/*
       <Section />
     <Main1/>

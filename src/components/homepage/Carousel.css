@@ -55,12 +55,16 @@
 @media (max-width: 40rem) {
 
     .image {
-        width: 100vw;
-        height: 50vh;
-        border-radius: 10px;
-        background-size: cover;
-        margin-top: 0;
+        width: auto ;
+  max-width: 100% ;
+  height: auto ;
     }
+
+.main-carousel__body {
+    
+    height: 60%;
+
+}
 
 }
 
