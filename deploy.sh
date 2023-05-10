@@ -1,8 +1,9 @@
 echo "Updating Git"
-echo "git checkout -b carousel"
+
+echo "git checkout -b carousel__mobile"
 git add .
-git commit -a -m "Comment"
-git push -u origin main
+git commit -a -m "carousel__mobile"
+git push --set-upstream origin carousel__mobile
 
 echo "Building app"
 npm run build 
