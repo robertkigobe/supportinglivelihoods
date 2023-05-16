@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import "./MainNav.css";
-import logo from "../../images/uccbimages/logo132.png";
+import logo from "../../images/logo1.jpeg";
 
 const MainNav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -66,203 +66,84 @@ const MainNav = () => {
           >
 
 <Link className="dropdown-list" to="/">
-                Home
+                Supporting Livelihoods
                   </Link>
             <ul
               className="dropdown-list"
               onClick={dropDownHandler1}
              
             >
-              Who we are
+              About us
               <i className="fa fa-caret-down"></i>
               
               <li  style={{
                 display: closed1 ? "none" : "block",
               }}>
-                <Link className="link" to="/aboutus">
-                    About Us
+                <Link className="link" to="/">
+                    Vision
                   </Link>
               </li>
               <li  style={{
                 display: closed1 ? "none" : "block",
               }}>
-                <Link className="link" to="/#">Chaplaincy</Link>
+                <Link className="link" to="/">
+                    Mission
+                  </Link>
               </li>
               <li  style={{
                 display: closed1 ? "none" : "block",
               }}>
-                <Link className="link" to="/#">Executive Board</Link>
+                <Link className="link" to="/#">Contact us</Link>
               </li>
-              <li  style={{
-                display: closed1 ? "none" : "block",
-              }}>
-                <Link className="link" to="/#">Executive Committee</Link>
-              </li>
-              <li  style={{
-                display: closed1 ? "none" : "block",
-              }}>
-                <Link className="link" to="/#">Leadership Council</Link>
-              </li>
-              <li  style={{
-                display: closed1 ? "none" : "block",
-              }}>
-                <Link className="link" to="/#">President's Message</Link>
-              </li>
-              <li  style={{
-                display: closed1 ? "none" : "block",
-              }}>
-                <Link className="link" to="/#">Chairman's Message</Link>
-              </li>
-
-              <li  style={{
-                display: closed1 ? "none" : "block",
-              }}>
-                <Link className="link" to="/#">Bubondo</Link>
-              </li>
+              
             </ul>
             <ul
               className="dropdown-list"
               onClick={dropDownHandler2}
              
             >
-              How we evangelize
+              Events
               <i className="fa fa-caret-down"></i>
               
               <li  style={{
                 display: closed2 ? "none" : "block",
               }}>
-                <Link className="link" to="/aboutus">
-                Readings
+                <Link className="link" to="/">
+                Event 1
                   </Link>
               </li>
               <li  style={{
                 display: closed2 ? "none" : "block",
               }}>
-                <Link className="link" to="/aboutus">
-                Family life
+                <Link className="link" to="/">
+                Event 2
                   </Link>
               </li>
-              <li  style={{
-                display: closed2 ? "none" : "block",
-              }}>
-                <Link className="link" to="/aboutus">
-                Faith formation
-                  </Link>
-              </li>
-              <li  style={{
-                display: closed2 ? "none" : "block",
-              }}>
-                <Link className="link" to="/aboutus">
-                Catholic education
-                  </Link>
-              </li>
-              <li  style={{
-                display: closed2 ? "none" : "block",
-              }}>
-                <Link className="link" to="/aboutus">
-                Baptism
-                  </Link>
-              </li>
-              <li  style={{
-                display: closed2 ? "none" : "block",
-              }}>
-                <Link className="link" to="/aboutus">
-                Holy Communion
-                  </Link>
-              </li>
-              <li  style={{
-                display: closed2 ? "none" : "block",
-              }}>
-                <Link className="link" to="/aboutus">
-                Holy Matrimony
-                  </Link>
-              </li>
-              <li  style={{
-                display: closed2 ? "none" : "block",
-              }}>
-                <Link className="link" to="/aboutus">
-                Sacrament of the Sick
-                  </Link>
-              </li>
-              <li  style={{
-                display: closed2 ? "none" : "block",
-              }}>
-                <Link className="link" to="/aboutus">
-                Propery blessings
-                  </Link>
-              </li>
-              <li  style={{
-                display: closed2 ? "none" : "block",
-              }}>
-                <Link className="link" to="/aboutus">
-                    Choirs
-                  </Link>
-              </li>
-              <li  style={{
-                display: closed2 ? "none" : "block",
-              }}>
-                <Link className="link" to="/aboutus">
-                Memorial Masses
-                  </Link>
-              </li>
-              <li  style={{
-                display: closed2 ? "none" : "block",
-              }}>
-                <Link className="link" to="/aboutus">
-                Small Community masses
-                  </Link>
-              </li>
-              <li  style={{
-                display: closed2 ? "none" : "block",
-              }}>
-                <Link className="link" to="/aboutus">
-                Mass Schedules
-                  </Link>
-              </li>
+              
             </ul>
             <ul
               className="dropdown-list"
               onClick={dropDownHandler3}
              
             >
-              Who we serve
+              Blog
               <i className="fa fa-caret-down"></i>
               
               <li  style={{
                 display: closed3 ? "none" : "block",
               }}>
-                <Link className="link" to="/aboutus">
-                Children
+                <Link className="link" to="/">
+                Blog 1
                   </Link>
               </li>
               <li  style={{
                 display: closed3 ? "none" : "block",
               }}>
-                <Link className="link" to="/aboutus">
-                Young adults
+                <Link className="link" to="/">
+                Resources
                   </Link>
               </li>
-              <li  style={{
-                display: closed3 ? "none" : "block",
-              }}>
-                <Link className="link" to="/aboutus">
-                Women
-                  </Link>
-              </li>
-              <li  style={{
-                display: closed3 ? "none" : "block",
-              }}>
-                <Link className="link" to="/aboutus">
-                Married
-                  </Link>
-              </li>
-              <li  style={{
-                display: closed3 ? "none" : "block",
-              }}>
-                <Link className="link" to="/aboutus">
-                Community Support
-                  </Link>
-              </li>
+              
               
             </ul>
             
@@ -271,133 +152,21 @@ const MainNav = () => {
               onClick={dropDownHandler4}
              
             >
-              Ways to give
+              Ways to support
               <i className="fa fa-caret-down"></i>
               
               <li  style={{
                 display: closed4 ? "none" : "block",
               }}>
-                <Link className="link" to="/aboutus">
+                <Link className="link" to="/">
                 Donate
                   </Link>
               </li>
               <li  style={{
                 display: closed4 ? "none" : "block",
               }}>
-               <Link className="link" to="/aboutus">
+               <Link className="link" to="/">
                Volunteer
-                  </Link>
-              </li>
-              <li  style={{
-                display: closed4 ? "none" : "block",
-              }}>
-                <Link className="link" to="/aboutus">
-                Become a lector
-                  </Link>
-              </li>
-              <li  style={{
-                display: closed4 ? "none" : "block",
-              }}>
-                <Link className="link" to="/aboutus">
-                Become a choir member
-                  </Link>
-              </li>
-              <li  style={{
-                display: closed4 ? "none" : "block",
-              }}>
-                <Link className="link" to="/aboutus">
-                Become an altar boy
-                  </Link>
-              </li>
-              <li  style={{
-                display: closed4 ? "none" : "block",
-              }}>
-                <Link className="link" to="/aboutus">
-                Become an usher
-                  </Link>
-              </li>
-              <li  style={{
-                display: closed4 ? "none" : "block",
-              }}>
-                <Link className="link" to="/aboutus">
-                Become a knight of columbus
-                  </Link>
-              </li>
-             
-            </ul>
-
-            <ul
-              className="dropdown-list"
-              onClick={dropDownHandler5}
-             
-            >
-              Uganda Matyrs
-              <i className="fa fa-caret-down"></i>
-              
-              <li  style={{
-                display: closed5 ? "none" : "block",
-              }}>
-                <Link className="link" to="/aboutus">
-                Married
-                  </Link>
-              </li>
-              <li  style={{
-                display: closed5 ? "none" : "block",
-              }}>
-                <Link className="link" to="/aboutus">
-                News and Events
-                  </Link>
-              </li>
-              <li  style={{
-                display: closed5 ? "none" : "block",
-              }}>
-                <Link className="link" to="/aboutus">
-                Organizing Committee
-                  </Link>
-              </li>
-              <li  style={{
-                display: closed5 ? "none" : "block",
-              }}>
-                <Link className="link" to="/aboutus">
-                How to support
-                  </Link>
-              </li>
-              <li  style={{
-                display: closed5 ? "none" : "block",
-              }}>
-                <Link className="link" to="/aboutus">
-                How to support
-                  </Link>
-              </li>
-              <li  style={{
-                display: closed5 ? "none" : "block",
-              }}>
-                <Link className="link" to="/aboutus">
-                Gallery
-                  </Link>
-              </li>
-            </ul>
-
-            <ul
-              className="dropdown-list"
-              onClick={dropDownHandler6}
-             
-            >
-              News
-              <i className="fa fa-caret-down"></i>
-              
-              <li  style={{
-                display: closed6 ? "none" : "block",
-              }}>
-                <Link className="link" to="/aboutus">
-                Announcements
-                  </Link>
-              </li>
-              <li  style={{
-                display: closed6 ? "none" : "block",
-              }}>
-                <Link className="link" to="/aboutus">
-                About Last week
                   </Link>
               </li>
               
@@ -407,7 +176,7 @@ const MainNav = () => {
         </div>
         <div className="main-nav">
           <div className="main-nav__title">
-            Ugandan Catholic Community in the Archdiocese of Boston
+            Supporting Livelihoods
           </div>
           <ul className="main-nav__items">
             <li className="main-nav__item">
@@ -416,86 +185,50 @@ const MainNav = () => {
               </Link>
             </li>
             <div className="main-nav__item">
-              <div className="main-nav__item__dropdown__head">Who we are </div>
+              <div className="main-nav__item__dropdown__head">About us</div>
               <ul className="main-nav__item__dropdown_content">
                 <li>
-                  <Link className="link" to="/aboutus">
+                  <Link className="link" to="/">
                     About Us
                   </Link>
                 </li>
-                <li>Office of the chaplaincy</li>
-                <li>Board</li>
-                <li>Executive Committee</li>
-                <li>Leadership Council</li>
-                <li>President's Message</li>
-                <li>Chairman's Message</li>
-                <li>Bubondo</li>
+                <li>Our Vision</li>
+                <li>Our Mission</li>
+                <li>Contact us</li>
               </ul>
             </div>
             <div className="main-nav__item">
               <div className="main-nav__item__dropdown__head">
-                How we evangelize
+                Events
               </div>
               <ul className="main-nav__item__dropdown_content">
-                <li>Choirs</li>
-                <li>Family life</li>
-                <li>Faith formation</li>
-                <li>Catholic education</li>
-                <li>Baptism</li>
-                <li>Holy Communion</li>
-                <li>Holy Matrimony</li>
-                <li>Sacrament of the Sick</li>
-                <li>Propery blessings</li>
-                <li>Memorial Masses</li>
-                <li>Small Community masses</li>
-                <li>Mass Schedules</li>
+                <li>Event 1</li>
+                <li>Event 2</li>
+                <li>Event 3</li>
+                <li>Event 4</li>
               </ul>
             </div>
 
             <div className="main-nav__item">
-              <div className="main-nav__item__dropdown__head">Who we serve</div>
+              <div className="main-nav__item__dropdown__head">Blogs</div>
               <ul className="main-nav__item__dropdown_content">
-                <li>Children</li>
-                <li>Young adults</li>
-                <li>Women</li>
-                <li>Men</li>
-                <li>Married</li>
-                <li>Community Support</li>
+                <li>Blog 1</li>
+                <li>Blog 2</li>
+                <li>Blog 3</li>
+                <li>Blog 4</li>
               </ul>
             </div>
 
             <div className="main-nav__item">
-              <div className="main-nav__item__dropdown__head">Way to give </div>
+              <div className="main-nav__item__dropdown__head">Ways to support </div>
               <ul className="main-nav__item__dropdown_content">
                 <li>Donate</li>
                 <li>Volunteer</li>
-                <li>Become a lector</li>
-                <li>Become a choir member</li>
-                <li>Become an altar boy</li>
-                <li>Become an usher</li>
-                <li>Become a knight of columbus</li>
+                
               </ul>
             </div>
 
-            <div className="main-nav__item">
-              <div className="main-nav__item__dropdown__head">
-                Uganda Matyrs
-              </div>
-              <ul className="main-nav__item__dropdown_content">
-                <li>News and Events</li>
-                <li>Organizing Committee</li>
-                <li>How to support</li>
-                <li>Gallery</li>
-              </ul>
-            </div>
-
-            <div className="main-nav__item">
-              <div className="main-nav__item__dropdown__head">News </div>
-              <ul className="main-nav__item__dropdown_content">
-                <li>Announcements</li>
-                <li>About Last week</li>
-              </ul>
-            </div>
+            
 
             <li className="main-nav__item main-nav__item--cta">
               <Link className="link__cta" to="/">
