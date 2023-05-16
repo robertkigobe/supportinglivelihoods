@@ -2,7 +2,7 @@ import React from "react";
 import "./Chaplains.css";
 import nolan from '../../images/uccbimages/nolan.jpg';
 import lugonja from '../../images/uccbimages/Lugonja.jpg';
-import jude from '../../images/uccbimages/Jude.jpeg';
+import jude from '../../images/uccbimages/Jude2.jpg';
 
 
 const Chaplains = () => {
