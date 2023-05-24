@@ -7,8 +7,8 @@ const Layout = () => {
 
   return (
     <div className="layout">
-      <Carousel slides={CarouselData}/>
       <WhoWeAre />
+      <Carousel slides={CarouselData}/>
       {/*
       <Section />
     <Main1/>

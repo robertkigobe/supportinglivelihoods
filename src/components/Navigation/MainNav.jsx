@@ -102,7 +102,7 @@ const MainNav = () => {
               onClick={dropDownHandler2}
              
             >
-              Events
+              What we do
               <i className="fa fa-caret-down"></i>
               
               <li  style={{
@@ -176,7 +176,7 @@ const MainNav = () => {
         </div>
         <div className="main-nav">
           <div className="main-nav__title">
-            Supporting Livelihoods
+            Supporting Livelihoods Inc
           </div>
           <ul className="main-nav__items">
             <li className="main-nav__item">
@@ -199,7 +199,7 @@ const MainNav = () => {
             </div>
             <div className="main-nav__item">
               <div className="main-nav__item__dropdown__head">
-                Events
+                What we do
               </div>
               <ul className="main-nav__item__dropdown_content">
                 <li>Event 1</li>

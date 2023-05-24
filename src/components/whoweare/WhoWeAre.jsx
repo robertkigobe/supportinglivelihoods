@@ -3,7 +3,7 @@ import "./WhoWeAre.css";
 const WhoWeAre = () => {
   return (
     <div className="main_whoweare">
-      <div className="main__title">CHARITY, HOPE, AND LIVELIHOOD</div>
+      <div className="main__title">HEALTH, SPECIAL NEEDS, EDUCATION, AND LIVELIHOOD</div>
 
       <p className="main_paragraph">
         <br />
