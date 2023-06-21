@@ -176,7 +176,7 @@ const MainNav = () => {
         </div>
         <div className="main-nav">
           <div className="main-nav__title">
-            Supporting Livelihoods Inc
+            <span className="span1">Supporting</span><span className="span2">Livelihoods Inc</span>
           </div>
           <ul className="main-nav__items">
             <li className="main-nav__item">

@@ -20,4 +20,5 @@ npm run build
 echo "Deploying to server"
 scp -r build/* rkigobe@143.198.126.139:/var/www/143.198.126.139
 
+
 echo "done"

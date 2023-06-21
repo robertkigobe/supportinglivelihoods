@@ -1,37 +1,86 @@
 import "./WhoWeAre.css";
+import { Link } from "react-router-dom";
 
 const WhoWeAre = () => {
   return (
     <div className="main_whoweare">
-      <div className="main__title">HEALTH, SPECIAL NEEDS, EDUCATION, AND LIVELIHOOD</div>
+      <div className="main__title">
+        <div>
+          <Link className="whoweare__button buttongroup" to="/health">
+            {" "}
+            HEALTH
+          </Link>
+          <Link className="whoweare__button buttongroup" to="/specialneeds">
+            {" "}
+            SPECIAL NEEDS{" "}
+          </Link>
+          <Link className="whoweare__button buttongroup" to="/education">
+            {" "}
+            EDUCATION{" "}
+          </Link>
+          <Link className="whoweare__button buttongroup" to="/livelihood">
+            {" "}
+            LIVELIHOOD{" "}
+          </Link>
+        </div>
+      </div>
 
       <p className="main_paragraph">
         <br />
-        WHO ARE WE?
-        <br />
-        An organization committed to restoring hope among the struggling
-        families by providing health services, educating children, and fostering
-        livelihood.
-        <br />
+        <ul>
+          WHO ARE WE?
+          <li>
+            Nonprofit organization restoring hope among poor and struggling
+            families
+          </li>
+        </ul>
         WHAT WE DO
-        <br />
-        Health, Education, and Livelihood CHL is dedicated to fighting against
-        maternal and child mortality, supporting education and vocation training
-        of impoverished people, and assisting underprivileged persons attain
-        means of securing the necessity of life.
-        <br />
-        
-        EDUCATION <br />
-        The Goal: We support formal education and vocation training people from
-        struggling families.
-        <br />
-        Historical background
-        <br />
-        CHR realized that most struggling families who seek medical assistance
-        from village midwives have failed to educate their children.
+        <ul>
+          <li>
+            Health
+            <ul>
+              <li>Antenatal and post-natal services</li>
+              <li>Out-patient services and Nutrition care</li>
+            </ul>
+          </li>
+          <li>
+            Education:
+            <ul>
+              <li>Formal education ($250)</li>
+            </ul>
+          </li>
+          <li>
+            Special Needs
+            <ul>
+              <li>
+                We are committed to fostering the flourishing of children with
+                disabilities such as physical, developmental, behavioral,
+                emotional, and sensory impaired disorders
+              </li>
+              <li>Autism, Down Syndrome, Fragile X Syndrome</li>
+              <li>Sensory Impairment</li>
+              <li>Deaf-blind</li>
+              <li>Deaf</li>
+              <li>Physical Disabilities</li>
+              <li>Muscular Dystrophy</li>
+              <li>Cerebral Palsy</li>
+              <li>Epilepsy</li>
+              <li>Behavioral or Emotional Disabilities</li>
+              <li>ADD</li>
+              <li>Oppositional Defiant Disorder</li>
+              <li>Bipolarized</li>
+            </ul>
+          </li>
+          <li>
+            Livelihood
+            <ul>
+              <li>Providing clean water • Offering vocational training to</li>
+              <li>women and youth</li>
+            </ul>
+          </li>
+        </ul>
         <br />
       </p>
-      <button class="whoweare__button">Load more</button>
     </div>
   );
 };

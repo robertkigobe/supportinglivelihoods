@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
+.main__title{
+
+}
 .whoweare__button {
   background-color: #fff;
   border: 0 solid #e2e8f0;
@@ -23,6 +26,12 @@
   touch-action: manipulation;
 }
 
+.buttongroup{
+
+  margin: .3rem;
+
+}
+
 .whoweare__button:hover {
   background-color: #1e293b;
   color: #fff;
@@ -43,7 +52,7 @@
         background: aliceblue;
         filter: grayscale(50%);
         text-align: center;
-        margin: 1rem;
+        margin: .2rem;
     }
 
     .main__title {
