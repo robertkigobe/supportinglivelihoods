@@ -1,18 +1,12 @@
-echo "creating Git"
-git init
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/robertkigobe/supportinglivelihoods.git
 
-echo "Updating Git"
-git remote add origin https://github.com/robertkigobe/supportinglivelihoods.git
-git branch -M main
-git push -u origin main
-
-echo "git checkout -b carousel__mobile"
+name="junetemplate"
+echo "git checkout -b "$name
+git checkout -b $name
 git add .
-git commit -a -m "carousel__mobile"
-git push --set-upstream origin carousel__mobile
+git commit -a -m $name
+git push --set-upstream origin $name
+git checkout main
+git pull
 
 echo "Building app"
 npm run build 
