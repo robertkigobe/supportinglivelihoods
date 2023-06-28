@@ -1,8 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
-.main__title{
+.main_whoweare {
+  
+  text-align: center;
+  width: vw;
+  background-color: aliceblue;
+  margin-bottom: .5rem;
+}
+
+
+.main_whoweare_main__title {
+
+ 
+  color: black;
+  font-size: 3rem;
+  text-align: center;
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Lobster', cursive;
+  font-family: 'Roboto Mono', monospace;
 
 }
+
+.main_who_we_are_containers{
+  text-align: center;
+  width: 100%;
+  background-color: aliceblue;
+  margin-bottom: .5rem;
+}
+
+.who_we_are_container {
+  width: 23%;
+    float: left;
+    padding:1rem;
+    margin: 1rem;
+    box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+    background-color: aliceblue;
+    height: 30rem;
+    
+
+}
+
+
 .whoweare__button {
   background-color: #fff;
   border: 0 solid #e2e8f0;
@@ -11,7 +49,7 @@
   color: #0d172a;
   cursor: pointer;
   display: inline-block;
-  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family: "Basier circle", -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.1rem;
   font-weight: 600;
   line-height: 1;
@@ -26,61 +64,8 @@
   touch-action: manipulation;
 }
 
-.buttongroup{
-
-  margin: .3rem;
-
-}
 
 .whoweare__button:hover {
   background-color: #1e293b;
   color: #fff;
-}
-
-@media (min-width: 768px) {
-  .whoweare__button {
-    font-size: 1.125rem;
-    padding: 1rem 2rem;
-  }
-}
-
-
-@media (max-width: 40rem) {
-    .main_whoweare {
-        font-family: 'Montserrat', sans-serif;
-        width: 90vw;
-        background: aliceblue;
-        filter: grayscale(50%);
-        text-align: center;
-        margin: .2rem;
-    }
-
-    .main__title {
-        margin: 10px;
-        font-weight: 900;
-        background: rgba(255, 255, 0, 0.3);
-        font-size: 1rem;
-        text-align: center;
-
-    }
-
-    .main_paragraph {
-        font-size: 1.0rem;
-        font-style: normal;
-        background: rgba(255, 255, 0, 0.4);
-        margin: 0.5rem;
-        padding: 0.2rem;
-        font: 'anton' san-serif;
-        box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5);
-        border-radius: 8px;
-        text-align: left;
-    }
-
-    .whoweare__button{
-      margin-bottom: 1rem;
-      box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5);
-        border-radius: 8px;
-    }
-
-
 }
