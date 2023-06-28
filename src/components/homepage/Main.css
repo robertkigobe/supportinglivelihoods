@@ -1,39 +1,43 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster&family=Roboto+Mono:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster&family=Roboto+Mono:wght@100;300&display=swap');
 
 
 .main__home {
-   margin-top: .5rem;
-    width: 100vw;
-    align-items: center;
-    
+    border: 1px solid black;
+    text-align: center;
+    height: vh;
+    width: vw;
+
 }
 
-.main__home div {
-    display: flexbox;
-    vertical-align: top;
-}
 
-.main__home_image{
-   display: inline-block;
 
-   margin-left: 0;
-   
-}
-
-.main__home_info{
-    background-color: black;
+.main__home_image__container {
     display: inline-block;
- width: 52%;
-    margin-top: 0;
-    height: 625px;
+    vertical-align: middle;
+    width: 40%;
+    height: vh;
+
+}
+.main__home_image{
+    width: 100%;
+    height: 35rem;
 }
 
-.main__home_info__title{
+.main__home_info {
+    display: inline-block;   
+    vertical-align: middle;
+    width: 59%;
+    background-color: black;
+    height: 35rem;
+}
+
+.main__home_info__title {
+
+    padding: 3rem;
     color: yellow;
     font-size: 3rem;
-    text-align: center;
+    text-align: left;
     font-family: 'Great Vibes', cursive;
-font-family: 'Lobster', cursive;
-font-family: 'Roboto Mono', monospace;
+    font-family: 'Lobster', cursive;
+    font-family: 'Roboto Mono', monospace;
 }

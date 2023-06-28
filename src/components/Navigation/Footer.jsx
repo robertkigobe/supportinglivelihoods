@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./MainNav.css";
+import "./Footer.css";
 import { Envelope } from "react-bootstrap-icons";
 import { CompassFill } from "react-bootstrap-icons";
 import logo from  "../../images/logo1.jpeg";
