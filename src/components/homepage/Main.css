@@ -1,0 +1,39 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster&family=Roboto+Mono:wght@100;300&display=swap');
+
+
+.main__home {
+   margin-top: .5rem;
+    width: 100vw;
+    align-items: center;
+    
+}
+
+.main__home div {
+    display: flexbox;
+    vertical-align: top;
+}
+
+.main__home_image{
+   display: inline-block;
+
+   margin-left: 0;
+   
+}
+
+.main__home_info{
+    background-color: black;
+    display: inline-block;
+ width: 52%;
+    margin-top: 0;
+    height: 625px;
+}
+
+.main__home_info__title{
+    color: yellow;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Roboto Mono', monospace;
+}
