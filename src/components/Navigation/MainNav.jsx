@@ -26,217 +26,64 @@ const MainNav = () => {
 
   const dropDownHandler2 = () => {
     setClosed2((closed2) => !closed2);
-  
   };
   const dropDownHandler3 = () => {
     setClosed3((closed3) => !closed3);
-  
   };
   const dropDownHandler4 = () => {
     setClosed4((closed4) => !closed4);
-  
   };
   const dropDownHandler5 = () => {
     setClosed5((closed5) => !closed5);
-  
   };
   const dropDownHandler6 = () => {
     setClosed6((closed6) => !closed6);
-  
   };
 
   return (
-    <header className="header">
-      <nav className="main-header">
-        
-        <div className="main-header__badge">
-          <img
-            src={logo}
-            alt="UCCB"
-            className="logo__image"
-            onClick={clickImageHandler}
-          />
-
-          <nav
-            onClick={clickHandler}
-            className="sidenav"
-            style={{
-              display: isImageOpen ? "block" : "none",
-            }}
-          >
-
-<Link className="dropdown-list" to="/">
-                Supporting Livelihoods
-                  </Link>
-            <ul
-              className="dropdown-list"
-              onClick={dropDownHandler1}
-             
-            >
-              About us
-              <i className="fa fa-caret-down"></i>
-              
-              <li  style={{
-                display: closed1 ? "none" : "block",
-              }}>
-                <Link className="link" to="/">
-                    Vision
-                  </Link>
-              </li>
-              <li  style={{
-                display: closed1 ? "none" : "block",
-              }}>
-                <Link className="link" to="/">
-                    Mission
-                  </Link>
-              </li>
-              <li  style={{
-                display: closed1 ? "none" : "block",
-              }}>
-                <Link className="link" to="/#">Contact us</Link>
-              </li>
-              
-            </ul>
-            <ul
-              className="dropdown-list"
-              onClick={dropDownHandler2}
-             
-            >
-              What we do
-              <i className="fa fa-caret-down"></i>
-              
-              <li  style={{
-                display: closed2 ? "none" : "block",
-              }}>
-                <Link className="link" to="/">
-                Event 1
-                  </Link>
-              </li>
-              <li  style={{
-                display: closed2 ? "none" : "block",
-              }}>
-                <Link className="link" to="/">
-                Event 2
-                  </Link>
-              </li>
-              
-            </ul>
-            <ul
-              className="dropdown-list"
-              onClick={dropDownHandler3}
-             
-            >
-              Blog
-              <i className="fa fa-caret-down"></i>
-              
-              <li  style={{
-                display: closed3 ? "none" : "block",
-              }}>
-                <Link className="link" to="/">
-                Blog 1
-                  </Link>
-              </li>
-              <li  style={{
-                display: closed3 ? "none" : "block",
-              }}>
-                <Link className="link" to="/">
-                Resources
-                  </Link>
-              </li>
-              
-              
-            </ul>
-            
-            <ul
-              className="dropdown-list"
-              onClick={dropDownHandler4}
-             
-            >
-              Ways to support
-              <i className="fa fa-caret-down"></i>
-              
-              <li  style={{
-                display: closed4 ? "none" : "block",
-              }}>
-                <Link className="link" to="/">
-                Donate
-                  </Link>
-              </li>
-              <li  style={{
-                display: closed4 ? "none" : "block",
-              }}>
-               <Link className="link" to="/">
-               Volunteer
-                  </Link>
-              </li>
-              
-            </ul>
-
-          </nav>
+    <>
+      <header class="main-header">
+        <div>
+          <button class="toggle-button">
+            <span class="toggle-button__bar"></span>
+            <span class="toggle-button__bar"></span>
+            <span class="toggle-button__bar"></span>
+          </button>
+          <a href="#" class="main-header__brand">
+            <img src={logo} alt="alt" />
+          </a>
         </div>
-        <div className="main-nav">
-          <div className="main-nav__title">
-            <span className="span1">Supporting</span><span className="span2">Livelihoods Inc</span>
-          </div>
-          <ul className="main-nav__items">
-            <li className="main-nav__item">
-              <Link className="link" to="/">
-                Home
-              </Link>
+        <nav class="main-nav">
+          <ul class="main-nav__items">
+            <li class="main-nav__item">
+              <a href="#">WHO WE ARE</a>
             </li>
-            <div className="main-nav__item">
-              <div className="main-nav__item__dropdown__head">About us</div>
-              <ul className="main-nav__item__dropdown_content">
-                <li>
-                  <Link className="link" to="/">
-                    About Us
-                  </Link>
-                </li>
-                <li>Our Vision</li>
-                <li>Our Mission</li>
-                <li>Contact us</li>
-              </ul>
-            </div>
-            <div className="main-nav__item">
-              <div className="main-nav__item__dropdown__head">
-                What we do
-              </div>
-              <ul className="main-nav__item__dropdown_content">
-                <li>Event 1</li>
-                <li>Event 2</li>
-                <li>Event 3</li>
-                <li>Event 4</li>
-              </ul>
-            </div>
-
-            <div className="main-nav__item">
-              <div className="main-nav__item__dropdown__head">Blogs</div>
-              <ul className="main-nav__item__dropdown_content">
-                <li>Blog 1</li>
-                <li>Blog 2</li>
-                <li>Blog 3</li>
-                <li>Blog 4</li>
-              </ul>
-            </div>
-
-            <div className="main-nav__item">
-              <div className="main-nav__item__dropdown__head">Ways to support </div>
-              <ul className="main-nav__item__dropdown_content">
-                <li>Donate</li>
-                <li>Volunteer</li>
-                
-              </ul>
-            </div>
-
-            
-
-            <li className="main-nav__item main-nav__item--cta">
-              
+            <li class="main-nav__item">
+              <a href="#">WHAT WE DO</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#">GALLERY</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#">SUPPORT US</a>
             </li>
           </ul>
-        </div>
+        </nav>
+      </header>
+      <nav class="mobile-nav">
+        <ul class="mobile-nav__items">
+          <li class="mobile-nav__item">
+            <a href="packages/index.html">Packages</a>
+          </li>
+          <li class="mobile-nav__item">
+            <a href="customers/index.html">Customers</a>
+          </li>
+          <li class="mobile-nav__item mobile-nav__item--cta">
+            <a href="start-hosting/index.html">Start Hosting</a>
+          </li>
+        </ul>
       </nav>
-    </header>
+    </>
   );
 };
 export default MainNav;

@@ -10,6 +10,9 @@ const Main = () => {
         <img className="main__home_image" src={jb1} alt="alt" />
       </div>
       <div className="main__home_info">
+      <div className="main-nav__title">
+            <span className="span1">Supporting</span><span className="span2">Livelihoods Inc</span>
+          </div>
         <span className="main__home_info__title">Nonprofit organization restoring hope among poor and struggling
             families</span>
             <Link className="button" to="/">
