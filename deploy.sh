@@ -1,5 +1,5 @@
 
-name="junetemplate_1"
+name="reworking_the_header"
 echo "git checkout -b "$name
 git checkout -b $name
 git add .
