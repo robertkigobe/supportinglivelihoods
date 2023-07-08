@@ -6,6 +6,7 @@ import Health from "./components/Health/Health";
 import SpecialNeeds from "./components/specialneeds/SpecialNeeds";
 import Education from "./components/Education/Education";
 import Livelihood from "./components/Livelihood/Livelihood";
+import Footer from "./components/Navigation/Footer";
 
 const App = () => {
   return (
@@ -37,7 +38,7 @@ const App = () => {
           </Route>
           
         </Switch>
-        
+        <Footer/>
       </Router>
     
   );

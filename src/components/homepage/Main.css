@@ -6,6 +6,7 @@
     text-align: center;
     height: vh;
     width: vw;
+    display: flex;
 
 }
 
@@ -24,11 +25,14 @@
 }
 
 .main__home_info {
-    display: inline-block;   
+    display: flex;
+    flex-direction: column;  
     vertical-align: middle;
     width: 59%;
     background-color: black;
     height: 35rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .main__home_info__title {

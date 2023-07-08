@@ -231,9 +231,7 @@ const MainNav = () => {
             
 
             <li className="main-nav__item main-nav__item--cta">
-              <Link className="link__cta" to="/">
-                Donate
-              </Link>
+              
             </li>
           </ul>
         </div>
