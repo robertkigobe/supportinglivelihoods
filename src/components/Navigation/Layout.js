@@ -9,7 +9,6 @@ const Layout = () => {
     <div className="layout">
       <Main/>
       <WhoWeAre />
-    
     </div>
   );
 };

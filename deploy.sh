@@ -1,5 +1,5 @@
 
-name="reworking_the_header"
+name="mobile_version"
 echo "git checkout -b "$name
 git checkout -b $name
 git add .
