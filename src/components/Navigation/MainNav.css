@@ -99,6 +99,7 @@ main {
 
 .main-nav__item {
   margin: 0 1rem;
+  font-size: 1.2rem;
 }
 
 .main-nav__item a,

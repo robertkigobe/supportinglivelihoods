@@ -1,8 +1,9 @@
 
-name="mobile_version"
+name="verson_1.0.0"
 echo "git checkout -b "$name
 git checkout -b $name
 git add .
+name="verson_1.0.0"
 git commit -a -m $name
 git push --set-upstream origin $name
 git checkout main

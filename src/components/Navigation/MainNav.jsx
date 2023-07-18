@@ -59,10 +59,18 @@ const MainNav = () => {
           </div>
           <ul class="main-nav__items">
             <li class="main-nav__item">
-              <a href="#">WHO WE ARE</a>
+            <Link className="main-nav__item" to="/health">
+                  Health
+                </Link>
             </li>
             <li class="main-nav__item">
-              <a href="#">WHAT WE DO</a>
+            <Link className="main-nav__item" to="/specialneeds">Speacial needs and disabilities</Link>
+            </li>
+            <li class="main-nav__item">
+            <Link className="main-nav__item" to="/education">Education</Link>
+            </li>
+            <li class="main-nav__item">
+            <Link className="main-nav__item" to="/livelihood">Livelihood</Link>
             </li>
             <li class="main-nav__item">
               <a href="#">GALLERY</a>
