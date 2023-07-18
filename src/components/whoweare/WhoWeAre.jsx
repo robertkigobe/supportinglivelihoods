@@ -40,22 +40,10 @@ const WhoWeAre = () => {
               <h1 class="plan__title">HEALTH</h1>
               {/* <h2 class="plan__price">$0/month</h2> */}
               <h3>
-                We are committed to supporting the community with health
-                services.
+                We prioritize the health and well-being of individuals and
+                families in Masaka. Our health programs include:
               </h3>
-              <ul class="plan__features">
-                <li class="plan__feature">Antenatal and post-natal services</li>
-                <li class="plan__feature">
-                  Out-patient services and Nutrition care
-                </li>
-                <li class="plan__feature">
-                  Transportation to health facilities
-                </li>
-                <li class="plan__feature">Hygiene education</li>
-                <li class="plan__feature">
-                  Dental and Vision care for the eldery
-                </li>
-              </ul>
+
               <div>
                 <button class="button">Read More</button>
               </div>
@@ -63,21 +51,13 @@ const WhoWeAre = () => {
             <article class="plan">
               <h1 class="plan__title">SPECIAL NEEDS</h1>
               {/* <h2 class="plan__price">$0/month</h2> */}
-              <h3>Fostering the flourishing of children with special needs.</h3>
-              <ul class="plan__features">
-                <li>Autism, Down Syndrome, Fragile X Syndrome</li>
-                <li class="plan__feature">
-                  Sensory Impairment,Muscular Dystrophy
-                </li>
-                <li class="plan__feature">Deaf, and or Deaf-blind</li>
-                <li class="plan__feature">Physical Disabilities</li>
-                <li class="plan__feature">Cerebral Palsy, Epilepsy</li>
-                <li class="plan__feature">
-                  Behavioral or Emotional Disabilities, ADD
-                </li>
-                <li class="plan__feature">Oppositional Defiant Disorder</li>
-                <li class="plan__feature">Bipolarized</li>
-              </ul>
+              <h3>
+                We firmly believe that children with disabilities have unique
+                talents and abilities that contribute to society. However, they
+                often face discrimination, abuse, and disrespect due to a lack
+                of understanding and awareness.
+              </h3>
+
               <div>
                 <button class="button">Read More</button>
               </div>
@@ -87,15 +67,10 @@ const WhoWeAre = () => {
               {/* <h1 class="plan__title">PLUS</h1> */}
               {/* <h2 class="plan__price">$29/month</h2> */}
               <h3>
-                Supporting the under priviledged in the community to have a
-                chance at education.
+                We believe that education is a fundamental right for all
+                children.
               </h3>
-              <ul class="plan__features">
-                <li class="plan__feature">Schilarstic materials</li>
-                <li class="plan__feature">Support for home tutoring</li>
-                <li class="plan__feature">Support to small village schools</li>
-                <li class="plan__feature">library services</li>
-              </ul>
+
               <div>
                 <button class="button">Read More</button>
               </div>
@@ -103,12 +78,11 @@ const WhoWeAre = () => {
             <article class="plan">
               <h1 class="plan__title">LIVELIHOOD</h1>
               {/* <h2 class="plan__price">$99/month</h2> */}
-              <h3>Helping everyone have a chance at a life full of joy.</h3>
-              <ul class="plan__features">
-                <li class="plan__feature">Counselling</li>
-                <li class="plan__feature">Companionship visits</li>
-                <li class="plan__feature">Hope conversations</li>
-              </ul>
+              <h3>
+                We are dedicated to addressing the issue of poverty and
+                empowering struggling families and individuals in Masaka.{" "}
+              </h3>
+
               <div>
                 <button class="button">Read More</button>
               </div>

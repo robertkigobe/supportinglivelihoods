@@ -54,6 +54,9 @@ const MainNav = () => {
           </a>
         </div>
         <nav class="main-nav">
+          <div className="main-nav__title">
+            <span className="span1">Supporting Livelihoods Inc</span>
+          </div>
           <ul class="main-nav__items">
             <li class="main-nav__item">
               <a href="#">WHO WE ARE</a>
