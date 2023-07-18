@@ -2,13 +2,15 @@
 
 
 .main__home {
-    border: 1px solid black;
+    
+    
     text-align: center;
     height: vh;
     width: vw;
     display: flex;
     margin-top: 2rem;
     justify-content: center;
+    background: black;
 
 }
 

@@ -65,8 +65,19 @@
 
 
 .section-title {
-  color: #2ddf5c;
+  color: black;
   text-align: center;
+}
+.who_we_are{
+
+  background: #295b31;
+  text-align: justify;
+  color: aliceblue;
+  padding: 2rem;
+  margin: 0.5rem 0;
+  width: 100%;
+  font-size: 1.5rem;
+
 }
 
 #product-overview h1 {
@@ -79,7 +90,7 @@
 }
 
 .plan {
-  background: #d5ffdc;
+  background: #295b31;
   text-align: center;
   padding: 1rem;
   margin: 0.5rem 0;
@@ -87,8 +98,10 @@
 }
 
 .plan--highlighted {
-  background: #19b84c;
+  background: #046422;
   color: white;
+  margin: 10px;
+  padding: 10px;
 }
 
 .plan__annotation {
