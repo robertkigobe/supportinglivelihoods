@@ -1,9 +1,45 @@
-.main_education{
-    text-align: center;
-    height: vh;
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster&family=Roboto+Mono:wght@100;300&display=swap');
+
+.main_education {
     width: vw;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    position: static;
-   
+    margin-top: 5rem;
+
+}
+
+.education_title {
+    display: flex;
+    width: vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.education_info {
+    display: flex;
+    width: vw;
+    justify-content: left;
+    text-align: justify;
+    padding: 2rem;
+    margin: 0 0 0 0.5rem;
+    font-size: 1.8rem;
+}
+
+.education_list {
+    padding: 0.2rem;
+    margin: 0 0 0.5rem 1rem;
+}
+
+.education_list_items {
+    list-style: disc;
+    list-style-position: outside;
+}
+
+.education_list_items li {
+    font-size: 1.5rem;
+    padding: 0.5rem;
 }
