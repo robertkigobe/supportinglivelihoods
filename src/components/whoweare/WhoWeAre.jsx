@@ -3,38 +3,13 @@ import { Link } from "react-router-dom";
 
 const WhoWeAre = () => {
   return (
-    <>
-      {/* <div className="main_whoweare">
-      <div className="main_whoweare_main__title">
-        <span>who we are</span>
-      </div>
-  
-     
-      <div className="who_we_are_container">
-      
-        <ul>
-          <li>Formal education ($250)</li>
-        </ul>
-        <Link className="whoweare__button" to="/education">
-          EDUCATION
-        </Link>
-      </div>
-      <div className="who_we_are_container">
-        
-          LIVELIHOOD
-        
-        <ul>
-          <li>women and youth</li>
-        </ul>
-        <Link className="whoweare__button" to="/livelihood">
-          LIVELIHOOD
-        </Link>
-      </div>
-      </div>
-    </div> */}
-      <main>
-        <section id="plans">
-          <h1 className="section-title">WHO WE ARE</h1>
+   
+      <div className="">
+        <section className="plans">
+          <div className="plan_section_title">
+            <h1 className="section-title">Who we are</h1>
+          </div>
+
           <div className="who_we_are">
             Supporting Livelihoods Inc is a nonprofit organization dedicated to
             restoring hope among poor and struggling families in Luweero,
@@ -104,8 +79,8 @@ const WhoWeAre = () => {
             </article>
           </div>
         </section>
-      </main>
-    </>
+      </div>
+    
   );
 };
 

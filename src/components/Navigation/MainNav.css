@@ -21,6 +21,9 @@ main {
   width: 100vw;
   height: 100vh;
   background: rgba(0, 0, 0, 0.5);
+  flex-grow: 2;
+  flex-shrink: 1; 
+  flex-basis: 150px;
 }
 
 .main-header {
@@ -65,7 +68,7 @@ main {
   color: #0e4f1f;
   text-decoration: none;
   font-weight: bold;
-
+  display: none;
 }
 
 .main-header__brand img {
@@ -80,13 +83,13 @@ main {
 
 }
 
-.main-nav__title{
+.main-nav__title {
   display: flex;
 }
 
 .span1 {
   color: rgb(15, 106, 243);
-
+  font-size: 2rem;
   font-family: 'Signika Negative', sans-serif;
 }
 
@@ -95,10 +98,11 @@ main {
   padding: 0;
   list-style: none;
   display: flex;
+  
 }
 
 .main-nav__item {
-  margin: 0 1rem;
+  margin: 0 0.3rem;
   font-size: 1.2rem;
 }
 

@@ -7,6 +7,7 @@ import SpecialNeeds from "./components/specialneeds/SpecialNeeds";
 import Education from "./components/Education/Education";
 import Livelihood from "./components/Livelihood/Livelihood";
 import Footer from "./components/Navigation/Footer";
+import Support from "./components/support/Suuport";
 
 const App = () => {
   return (
@@ -35,6 +36,10 @@ const App = () => {
 
           <Route exact path="/livelihood">
             <Livelihood />
+          </Route>
+
+          <Route exact path="/support">
+            <Support />
           </Route>
           
         </Switch>
