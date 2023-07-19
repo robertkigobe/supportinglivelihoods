@@ -1,9 +1,7 @@
 
-name="verson_1.0.1"
-echo "git checkout -b "$name
+name="version_20230719"
 git checkout -b $name
 git add .
-name="verson_1.0.1"
 git commit -a -m $name
 git push --set-upstream origin $name
 git checkout main
