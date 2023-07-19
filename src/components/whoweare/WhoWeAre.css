@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
-.main_whoweare {
-
+.plans{
   text-align: center;
   width: vw;
   background-color: aliceblue;
-  margin-bottom: .5rem;
+  position: relative;
+
 }
 
 
@@ -62,12 +62,6 @@
 
 }
 
-
-
-.section-title {
-  color: black;
-  text-align: center;
-}
 .who_we_are{
 
   background: #295b31;
@@ -89,8 +83,10 @@
   font-size: 1.6rem;
 }
 
+
+
 .plan {
-  background: #295b31;
+  background: #046422;
   text-align: center;
   padding: 1rem;
   margin: 0.5rem 0;
@@ -102,6 +98,9 @@
   color: white;
   margin: 10px;
   padding: 10px;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5);
+        border-radius: 8px;
+        filter: grayscale(10%);
 }
 
 .plan__annotation {
@@ -110,6 +109,15 @@
   padding: 0.5rem;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
   border-radius: 8px;
+}
+.plan_section_title{
+  align-items: center;
+  border-color: dotted red;
+}
+
+.section-title {
+  color: black;
+  text-align: center;
 }
 
 .plan__title {

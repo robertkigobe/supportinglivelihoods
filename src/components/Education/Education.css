@@ -1,0 +1,9 @@
+.main_education{
+    text-align: center;
+    height: vh;
+    width: vw;
+    display: flex;
+    justify-content: center;
+    position: static;
+   
+}

@@ -41,7 +41,7 @@ const MainNav = () => {
   };
 
   return (
-    <>
+    <div className="main">
       <header class="main-header">
         <div>
           <button class="toggle-button">
@@ -58,6 +58,11 @@ const MainNav = () => {
             <span className="span1">Supporting Livelihoods Inc</span>
           </div>
           <ul class="main-nav__items">
+          <li class="main-nav__item">
+            <Link className="main-nav__item" to="/">
+                  Home
+                </Link>
+            </li>
             <li class="main-nav__item">
             <Link className="main-nav__item" to="/health">
                   Health
@@ -73,10 +78,10 @@ const MainNav = () => {
             <Link className="main-nav__item" to="/livelihood">Livelihood</Link>
             </li>
             <li class="main-nav__item">
-              <a href="#">GALLERY</a>
+            <Link className="main-nav__item" to="/">Gallery</Link>
             </li>
             <li class="main-nav__item">
-              <a href="#">SUPPORT US</a>
+            <Link className="main-nav__item" to="/support">How to Support</Link>
             </li>
           </ul>
         </nav>
@@ -94,7 +99,7 @@ const MainNav = () => {
           </li>
         </ul>
       </nav>
-    </>
+    </div>
   );
 };
 export default MainNav;
