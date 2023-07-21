@@ -1,5 +1,5 @@
 
-name="version_20230719"
+name="version_20230721"
 git checkout -b $name
 git add .
 git commit -a -m $name

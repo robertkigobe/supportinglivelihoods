@@ -43,3 +43,26 @@
     font-size: 1.5rem;
     padding: 0.5rem;
 }
+
+@media (max-width: 40rem) {
+
+    .support_info {
+        margin: 0;
+        font-size: 1.2rem;
+    }
+
+    .support_list {
+        padding: 0.2rem;
+        margin: 0;
+    }
+
+    .support_list_items {
+        list-style: disc;
+        list-style-position: outside;
+    }
+    
+    .support_list_items li {
+        font-size: 1.2rem;
+        padding: 0.5rem;
+    }
+}

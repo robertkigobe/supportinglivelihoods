@@ -1,7 +1,6 @@
 import './Layout.css';
 import WhoWeAre from '../whoweare/WhoWeAre';
-import Footer from "./Footer";
-import Main from '../homepage/Main';
+import Main from '../main/Main';
 
 const Layout = () => {
 
