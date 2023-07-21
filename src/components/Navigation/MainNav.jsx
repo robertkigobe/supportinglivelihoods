@@ -5,46 +5,16 @@ import logo from "../../images/logo1.jpeg";
 
 const MainNav = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [isImageOpen, setIsImageOpen] = useState(false);
-  const [closed1, setClosed1] = useState(true);
-  const [closed2, setClosed2] = useState(true);
-  const [closed3, setClosed3] = useState(true);
-  const [closed4, setClosed4] = useState(true);
-  const [closed5, setClosed5] = useState(true);
-  const [closed6, setClosed6] = useState(true);
 
   const clickHandler = () => {
-    setIsOpen((isOpen) => true);
-  };
-
-  const clickImageHandler = () => {
-    setIsImageOpen((isImageOpen) => !isImageOpen);
-  };
-  const dropDownHandler1 = () => {
-    setClosed1((closed1) => !closed1);
-  };
-
-  const dropDownHandler2 = () => {
-    setClosed2((closed2) => !closed2);
-  };
-  const dropDownHandler3 = () => {
-    setClosed3((closed3) => !closed3);
-  };
-  const dropDownHandler4 = () => {
-    setClosed4((closed4) => !closed4);
-  };
-  const dropDownHandler5 = () => {
-    setClosed5((closed5) => !closed5);
-  };
-  const dropDownHandler6 = () => {
-    setClosed6((closed6) => !closed6);
+    setIsOpen((isOpen) => !isOpen);
   };
 
   return (
     <div className="main">
       <header class="main-header">
         <div>
-          <button class="toggle-button">
+          <button class="toggle-button"  onClick={clickHandler}>
             <span class="toggle-button__bar"></span>
             <span class="toggle-button__bar"></span>
             <span class="toggle-button__bar"></span>
@@ -86,16 +56,29 @@ const MainNav = () => {
           </ul>
         </nav>
       </header>
-      <nav class="mobile-nav">
+      <nav class="mobile-nav"
+      style={{
+        display: isOpen ? "block" : "none",
+      }}
+      >
         <ul class="mobile-nav__items">
           <li class="mobile-nav__item">
-            <a href="packages/index.html">Packages</a>
+          <Link onClick={clickHandler} to="/"> Home </Link>
           </li>
           <li class="mobile-nav__item">
-            <a href="customers/index.html">Customers</a>
+          <Link onClick={clickHandler}  to="/specialneeds">Speacial needs</Link>
           </li>
-          <li class="mobile-nav__item mobile-nav__item--cta">
-            <a href="start-hosting/index.html">Start Hosting</a>
+          <li class="mobile-nav__item">
+          <Link onClick={clickHandler}  to="/education">Education</Link>
+          </li>
+          <li class="mobile-nav__item">
+          <Link onClick={clickHandler}  to="/livelihood">Livelihood</Link>
+          </li>
+          <li class="mobile-nav__item">
+          <Link onClick={clickHandler}  to="/">Gallery</Link>
+          </li>
+          <li class="mobile-nav__item">
+          <Link onClick={clickHandler}  to="/support">How to Support</Link>
           </li>
         </ul>
       </nav>

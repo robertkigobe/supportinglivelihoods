@@ -3,18 +3,16 @@ import { Link } from "react-router-dom";
 import "./Footer.css";
 import { Envelope } from "react-bootstrap-icons";
 import { CompassFill } from "react-bootstrap-icons";
-import logo from  "../../images/logo1.jpeg";
+import logo from "../../images/logo1.jpeg";
 
 const Footer = () => {
   const mail = "info@supportinglivelihoods.org";
   const address = "143 north road checlmsford 01824-2166";
-  
+
   return (
     <nav className="main-footer">
       <div className="section-title">
-        <h1 className="main-footer__title">
-          Supporting Livelihoods Inc
-        </h1>
+        <h1 className="main-footer__title">Supporting Livelihoods Inc</h1>
       </div>
 
       <div className="footer__container">
@@ -31,17 +29,15 @@ const Footer = () => {
               <CompassFill />
               {address}
             </li>
-            
           </ul>
           <div className="map"></div>
         </div>
       </div>
       <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
-      defer
-    ></script>
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+        defer
+      ></script>
     </nav>
-    
   );
 };
 
